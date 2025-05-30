@@ -1,0 +1,280 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	-webkit-text-size-adjust: none;
+	color: #4d3e31;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-size: 16px;	
+	line-height: 2;
+	background: #4c6151;
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,input,textarea {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+ul {list-style-type: none;}
+ol {padding-left: 40px;padding-bottom: 15px;}
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+iframe {width: 100%;}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+	color: #4d3e31;
+	transition: 0.3s;
+}
+a:hover {
+	color: #3d2d21;	
+}
+
+#container {
+	max-width: 1400px;	
+	margin: 0 auto;
+	padding: 0 3%;
+}
+
+
+header {
+	text-align: center;	
+}
+
+#logo img {
+	width: 100%;
+	
+	margin: 40px auto 40px;	
+}
+
+
+#mainimg img {
+
+	width: center;
+	border-radius: 10px;
+	margin-bottom: 40px;
+}
+
+
+#menubar {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+#menubar li {
+	display: inline;
+}
+#menubar li a {
+	text-decoration: none;
+	padding: 15px 30px;
+}
+
+#menubar li a:hover {
+	color: #af8f72;
+	border-bottom: 4px solid #3d2d21;
+}
+
+#contents h2 {
+	clear: both;
+	margin-bottom: 20px;
+	color: #fff;
+	padding: 10px 20px;
+	background: #3d2d21;
+	border-radius: 10px;
+}
+
+#contents h3 {
+	clear: both;
+	margin-bottom: 20px;
+	padding: 8px 20px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+#contents p {
+	padding: 0px 20px 20px;
+}
+
+#contents p + p {
+	margin-top: -5px;
+}
+#contents h2 + p,
+#contents h3 + p {
+	margin-top: -10px;
+}
+#contents section + section {
+	margin-top: 30px;
+}
+
+
+.list {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+}
+.list h4 {
+
+	font-size: 14pt;	
+	color: #cb9871d7;
+}
+
+.list img {
+	width: 20%;			
+	float: left;		
+	margin-right: 3%	
+}
+
+.list p {
+	padding: 0 !important;
+	color: #cb9871d7;
+}
+
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 30px 0px 10px;
+}
+footer a {
+	text-decoration: none;
+	border: none;
+}
+footer .pr {
+	display: block;
+}
+
+
+#new dl {
+	padding: 0px 20px;
+	margin-bottom: 20px;
+}
+
+#new dt {
+	font-weight: bold;	
+	float: left;
+	width: 8em;
+}
+
+#new dd {
+	padding-left: 8em;
+}
+
+
+.ta1 caption {
+	border: 1px solid #999;	
+	border-bottom: none;
+	text-align: left;
+	background: #eee;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.ta1 th.tamidashi {
+	width: auto;
+	text-align: left;
+	background: #eee;
+}
+
+.ta1 {
+	table-layout: fixed;
+	width: 100%;
+	margin: 0 auto 20px;
+}
+.ta1, .ta1 td, .ta1 th {
+	word-break: break-all;
+	border: 1px solid #999;
+	padding: 10px;	
+	color: #cb9871d7;	 
+
+	font-size: 14pt;
+
+}
+
+.ta1 th {
+	text-align: center;
+	width: 30%;
+}
+
+
+
+
+
+.look {background: #e5e5e5;padding: 5px 10px;border-radius: 4px;}
+.mb15,.mb1em {margin-bottom: 15px;}
+.color1 {color: #3d2d21;}
+.pr {font-size: 12px;}
+.wl {width: 96%;}
+.ws {width: 50%;}
+.c {text-align: center;}
+.r {text-align: right;}
+.l {text-align: left;}
+
+
+
+
+@media screen and (max-width:580px){
+
+
+body {
+	font-size: 12px;	/*文字サイズ*/
+	line-height: 1.5;	/*行間*/
+}
+
+
+#menubar li {
+	display: block;	/*縦並びにする設定*/
+	margin-bottom: 10px;
+}
+#menubar li a {
+	text-decoration: none;
+	padding: 8px 30px;	/*各メニュー内の余白。*/
+}
+
+
+.list {
+	padding: 10px;	/*ボックス内の余白*/
+}
+
+
+.ws,.wl {width: 94%;}
+
+}
+
+
+.weather-container {
+    clear: both;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 10px 20px; 
+    background: #3d2d21; 
+	border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 100%; /* 幅を全体に広げる */
+    text-align: center; /* テキスト中央揃え */
+}
+
+
+.weather-container h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #f2d7c1;
+}
+
+.weather-card {
+    text-align: left;
+    line-height: 1.6;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card p {
+    margin: 5px 0;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
